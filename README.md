@@ -13,3 +13,8 @@
 • Rodriguez Flores
 
 • Tabanez
+
+
+Correccion de Issues
+
+* A dia de hoy no hay tareas 
