@@ -4,15 +4,15 @@
 
 # Integrantes
 
-• Dos Santos
+• Dos Santos - DBA
 
-• Jerez
+• Jerez - DBA 
 
-• Lopez
+• Lopez - Diseñadora
 
-• Rodriguez Flores
+• Rodriguez Flores - PM
 
-• Tabanez
+• Tabanez - Diseñadora
 
 
 Correccion de Issues
