@@ -6,14 +6,22 @@
 
 • Dos Santos - DBA
 
-• Jerez - DBA 
+• Jerez - Tester 
 
-• Lopez - Diseñadora
+• Lopez - Develop
 
 • Rodriguez Flores - PM
 
 • Tabanez - Diseñadora
 
+# Sprint 2 
+
+* Login funcionalidad principal
+* Registro funcionalidad principal 
+* Recuperar contraseña 
+* Base de datos del login 
+*
+ 
 
 Correccion de Issues
 
