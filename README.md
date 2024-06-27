@@ -16,9 +16,9 @@
 
 # Sprint 2 
 
-* Login funcionalidad principal
-* Registro funcionalidad principal 
-* Recuperar contraseña 
+* Login principal
+* Registro principal 
+* Pantalla de recuperacion contraseña 
 * Base de datos del login 
 *
  
