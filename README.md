@@ -14,13 +14,12 @@
 
 • Tabanez - Diseñadora
 
-# Sprint 2 
+# Sprint 3 
 
 * Login funcionalidad principal
-* Registro funcionalidad principal 
-* Recuperacion contraseña 
-* Base de datos del login 
-*
+* Actualizacion de contraseña
+* Agregar logo del proyecto 
+  
  
 
 Correccion de Issues
