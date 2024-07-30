@@ -4,23 +4,23 @@
 
 # Integrantes
 
-• Dos Santos - DBA
+• Dos Santos - Develop
 
 • Jerez - Tester 
 
 • Lopez - Develop
 
-• Rodriguez Flores - PM
+• Rodriguez Flores - PM / Diseñador
 
-• Tabanez - Diseñadora
+• Tabanez - DBA
 
-# Sprint 3 
+# Sprint 4 
 
-* Login funcionalidad principal
-* Actualizacion de contraseña
-* Agregar logo del proyecto 
+* Pagina principal
+* paginas de informacion
+* recuperacion de contraseña
+
   
- 
 
 Correccion de Issues
 
