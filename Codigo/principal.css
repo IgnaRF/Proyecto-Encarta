@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+header{
+    background: linear-gradient(to right, #084ca5, #8b9cd3);
+    height: 150px;
+    border: 6px solid black;
+    border-radius: 20px;
+}
+
+.btn-iniciar{
+    border: 2px solid black;
+    float: right;
+    height: 30px;
+    padding: 5px;
+    margin-right: 20px;
+    margin-top: 50px;
+    background-color: aliceblue;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+
+.logowikired{
+    display: block;
+    margin: auto;
+    margin-top: -50px;
+    width: 250px;
+    height:250px ;
+    margin-right: 43%;
+}
+
+footer{
+
+    height: 70px;
+    background: linear-gradient(to right, #084ca5, #8b9cd3);    text-align: center;
+    border: 6px solid black;
+    border-radius: 20px;
+    position: fixed; /* Mantiene el footer fijo en la parte inferior de la ventana */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+
+
+.foroimg{
+    float: right;
+    margin-right: 30px;
+}
+
+
+
+main{
+    display: flex;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    align-items: center; /* Centra las imágenes verticalmente */
+    gap: 40px; /* Espacio de 40px entre las imágenes */
+    padding: 20px; /* Opcional: agrega relleno alrededor del contenido */
+    height: calc(100vh - 220px); /* Ajusta la altura del main para que se ajuste entre el header y el footer */
+    position: fixed; /* Mantiene el main fijo en la ventana */
+    top: 150px; /* Coloca el main debajo del header */
+    width: 100%; /* Asegura que el main ocupe todo el ancho de la ventana */
+    overflow: auto;
+}
+
+.container {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos dentro del contenedor */
+    justify-content: center; /* Centra horizontalmente los elementos dentro del contenedor */
+    gap: 650px; /* Espacio entre las imágenes y el texto */
+}
+
+.image-container {
+    display: flex;
+    align-items: center; /* Centra la imagen verticalmente dentro del contenedor */
+    justify-content: center; /* Centra la imagen horizontalmente dentro del contenedor */
+    background: linear-gradient(to right, #084ca5, #8b9cd3);    border-radius: 50%; /* Hace que el fondo sea redondo */
+    width: 400px; 
+    height: 400px; 
+    padding: 25px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    overflow: hidden; 
+    border: 3px solid black;
+
+}
+
+/* Estilos para las imágenes */
+.redes-img,
+.sistemas-img {
+    height: 350px;
+    width: 350px;
+    object-fit: cover; 
+}
+
+.redes-img{
+    margin-left: 50px;
+}
+
+.text-container {
+    padding: 20px;
+    position: absolute;
+    top: 40%;
+    align-items: center; 
+    justify-content: center; 
+    font-size: 40px;
+    color: #333; 
+    width: 700px; 
+    text-align: center; 
+    
+}
+
+.logo-empresa{
+    float: left;
+    margin-left: 10px;
+    width: auto;
+    height: 65px;
+}

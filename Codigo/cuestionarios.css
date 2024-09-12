@@ -1,0 +1,159 @@
+
+/* Reset básico */
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box; /* Incluye padding y border en el tamaño total del elemento */
+}
+    
+    
+h1{
+    margin-top: 30px;
+}   
+    
+    
+/* Header */
+header {
+background: linear-gradient(to right, #084ca5, #8b9cd3); border-radius: 50%; /* Hace que el fondo sea redondo */
+height: 150px;
+border: 6px solid black;
+border-radius: 20px;
+display: flex;
+flex-direction: column; /* Alinea los elementos en columna */
+align-items: center; /* Centra los elementos horizontalmente */
+justify-content: center; /* Centra los elementos verticalmente */
+position: relative; /* Para el posicionamiento de otros elementos si fuera necesario */
+
+    }
+    
+.logowikired {
+position: absolute;
+left: 20px;
+width: 200px; /* Ajusta según el tamaño deseado */
+height: auto; /* Mantiene la proporción original */
+
+}
+    
+.texto{
+color: white;
+text-align: center;
+    
+}
+    
+.texto {
+font-size: 20px;
+    margin-top: 15px; /* Espacio entre .texto y .titulo */
+    }
+    
+.titulo{
+font-size: 65px;
+margin-bottom: 30px;
+}
+    
+.pregunta{
+margin-bottom: -70px;
+}
+    
+/* Main */
+
+    
+    
+    
+    
+/* Footer */
+    footer {
+    height: 70px;
+    background: linear-gradient(to right, #084ca5, #8b9cd3); border-radius: 50%; /* Hace que el fondo sea redondo */
+    text-align: center;
+    border: 6px solid black;
+    border-radius: 20px;
+    position: fixed; /* Mantiene el footer fijo en la parte inferior de la ventana */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    }
+    
+    .btn-menu {
+    border: 2px solid black;
+    height: 30px;
+    padding: 5px;
+    background-color: aliceblue;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    align-self: center;
+    }
+    
+.foroimg {
+    width: 50px; /* Ajusta según el tamaño deseado */
+    height: auto; /* Mantiene la proporción original */
+    }
+
+    *{
+        box-sizing: border-box;
+        font-family: 'Balsamic Sans';
+    }
+    
+    .container {
+        margin: 0 auto;
+        padding: 20px;
+        max-width: 900px; /* Aumenta el ancho para hacerlo más grande */
+        text-align: center; /* Asegura que el contenido esté centrado */
+      
+        border-radius: 10px; /* Bordes redondeados */
+        background-color: #ffffff; /* Color de fondo */
+    }
+    
+    /* Cada sección (pregunta) */
+    section {
+        border: 5px solid  #084ca5 ;
+        border-radius: 7px;
+        padding: 15px; /* Aumenta el padding para más espacio interno */
+        margin: 15px 0; /* Más espacio entre secciones */
+        text-align: left; /* Alinea el texto de las preguntas a la izquierda */
+    }
+    
+    /* Ajuste del tamaño de los labels */
+    label {
+        display: block;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        border: 1px dashed #797979;
+        margin-bottom: 15px;
+        width: 95%; /* Ajusta el ancho a un 95% del contenedor */
+        margin: 0 auto; /* Centra los labels dentro de la sección */
+    }
+    
+    /* Efecto hover sobre los labels */
+label:hover{
+    background: linear-gradient(to right, #084ca5, #8b9cd3);
+    color: white;
+}
+    
+    /* Botón */
+    button {
+        width: 70%; /* Ajusta el ancho del botón */
+        display: block;
+        margin: 20px auto;
+        padding: 12px;
+        background-color: #367bc9;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+    
+    h2 {
+        text-align: center;
+    }
+    
+    #resultado {
+        font-size: 30px;
+        color: rgb(0, 25, 139);
+    }
+    

@@ -1,0 +1,91 @@
+/* Reset básico */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Incluye padding y border en el tamaño total del elemento */
+}
+
+
+/* Header */
+header {
+    background: linear-gradient(to right, #084ca5, #8b9cd3);    border-radius: 50%; /* Hace que el fondo sea redondo */
+    height: 150px;
+    border: 6px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+     /* Para el posicionamiento de otros elementos si fuera necesario */
+}
+
+.logowikired {
+    position: absolute;
+    left: 20px;
+    width: 200px; /* Ajusta según el tamaño deseado */
+    height: auto; /* Mantiene la proporción original */
+    margin-top: -57px;
+    margin-left: 7px;
+}
+
+
+.titulo{
+    font-size: 70px;
+
+}
+/* Main */
+
+main{
+    margin-left: 35%;
+    margin-top: 70px;
+}
+
+.btn-iniciar{
+    border: 2px solid black;
+    height: 30px;
+    padding: 9px;
+    margin-right: 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    
+    
+}
+
+/* Footer */
+footer {
+    height: 70px;
+    background: linear-gradient(to right, #084ca5, #8b9cd3);    border-radius: 50%; /* Hace que el fondo sea redondo */
+    text-align: center;
+    border: 6px solid black;
+    border-radius: 20px;
+    position: fixed; /* Mantiene el footer fijo en la parte inferior de la ventana */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.btn-menu {
+    border: 2px solid black;
+    height: 30px;
+    padding: 5px;
+    background-color: aliceblue;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.foroimg {
+    width: 50px; /* Ajusta según el tamaño deseado */
+    height: auto; /* Mantiene la proporción original */
+}
+
+
+
+
