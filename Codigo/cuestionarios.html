@@ -84,6 +84,142 @@
                 <input type="radio" value="3" name="p2" onclick="respuesta(2,this)"> internet
             </label>
         </section>
+        <section id="p3">
+            <h3>4. ¿Qué tecnología de contenedores permite ejecutar aplicaciones aisladas junto con sus dependencias?</h3>
+            <label>
+                <input type="radio" value="1" name="p3" onclick="respuesta(3,this)">  VMware
+            </label>
+            <label>
+                <input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> VirtualBox
+            </label>
+            <label>
+                <input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> Docker
+            </label>
+            <label>
+                <input type="radio" value="4" name="p3" onclick="respuesta(3,this)"> Hyper-V
+            </label>
+        </section>
+
+        <section id="p4">
+            <h3>5. ¿Qué sistema de archivos es utilizado por defecto en la mayoría de las distribuciones Linux?</h3>
+            <label>
+                <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> NTFS
+            </label>
+            <label>
+                <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> FAT32
+            </Label>
+            <label>
+                <input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> ext3
+            </Label>
+            <label>
+                <input type="radio" value="4" name="p4" onclick="respuesta(4,this)"> ext4
+            </label>
+        </section>
+    
+
+        <section id="p5">
+            <h3>6. ¿Qué comando en Linux permite gestionar los permisos de archivos?
+            </h3>
+            <label>
+                <input type="radio" value="1" name="p5" onclick="respuesta(5,this)"> ls
+            </label>
+            <label>
+                <input type="radio" value="2" name="p5" onclick="respuesta(5,this)"> chmod
+            </label>
+            <label>
+                <input type="radio" value="3" name="p5" onclick="respuesta(5,this)"> ps
+            </label>
+            <label>
+                <input type="radio" value="4" name="p5" onclick="respuesta(5,this)"> mkdir
+            </label>
+        </section>
+    
+
+        <section id="p6">
+            <h3>7. ¿Qué herramienta de seguridad permite cifrar discos completos en Windows?</h3>
+            <label>
+                <input type="radio" value="1" name="p6" onclick="respuesta(6,this)"> LUKS
+            </label>
+            <label>
+                <input type="radio" value="2" name="p6" onclick="respuesta(6,this)"> BitLocker
+            </label>
+            <label>
+                <input type="radio" value="3" name="p6" onclick="respuesta(6,this)"> iptables
+            </label>
+            <label>
+                <input type="radio" value="4" name="p6" onclick="respuesta(6,this)">  ufw
+            </label>
+        </section>
+    
+        
+        <section id="p7">
+            <h3>8. ¿Cuál de los siguientes sistemas operativos móviles se basa en Unix?</h3>
+            <label>
+                <input type="radio" value="1" name="p7" onclick="respuesta(7,this)"> Android
+            </label>
+            <label>
+                <input type="radio" value="2" name="p7" onclick="respuesta(7,this)"> iOS
+            </label>
+            <label>
+                <input type="radio" value="3" name="p7" onclick="respuesta(7,this)"> Linux Mint
+            </label>
+            <label>
+                <input type="radio" value="4" name="p7" onclick="respuesta(7,this)"> FreeBSD
+
+            </label>
+        </section>
+    
+
+
+        <section id="p8">
+            <h3>
+                9. ¿Qué comando en Linux se utiliza para listar los procesos en ejecución?</h3>
+            <label>
+                <input type="radio" value="1" name="p8" onclick="respuesta(8,this)"> ps
+            </label>
+            <label>
+                <input type="radio" value="2" name="p8" onclick="respuesta(8,this)"> kill
+            </label>
+            <label>
+                <input type="radio" value="3" name="p8" onclick="respuesta(8,this)"> rm
+            </label>
+            <label>
+                <input type="radio" value="4" name="p8" onclick="respuesta(8,this)"> cd
+            </label>
+        </section>
+    
+        <section id="p9">
+            <h3>10. ¿Qué tipo de virtualización permite que el sistema operativo invitado sea consciente de la virtualización para mejorar el rendimiento?</h3>
+            <label>
+                <input type="radio" value="1" name="p9" onclick="respuesta(9,this)"> Virtualización completa
+            </label>
+            <label>
+                <input type="radio" value="2" name="p9" onclick="respuesta(9,this)"> Para virtualización
+            </label>
+            <label>
+                <input type="radio" value="3" name="p9" onclick="respuesta(9,this)">  Contenedores
+            </label>
+            <label>
+                <input type="radio" value="4" name="p9" onclick="respuesta(9,this)"> Emulación
+            </label>
+        </section>
+
+
+        <button onclick="enviar()"> Enviar </button>
+        <h2> Cantidad de acertados: <span id="resultado"></span></h2>
+    </div>
+
+<br> <br> <br> <br> <br>
+
+<footer>
+<a class="btn-menu" href="index.html">Menu</a>
+<img class="foroimg" src="conversation.png" alt="Mostrar Foro" id="showForumButton" style="cursor: pointer;">
+
+    <script src="cuestionarios.js"></script>
+
+</footer>
+
+</body>
     
         <button onclick="enviar()"> Enviar </button>
         <h2> Cantidad de acertados: <span id="resultado"></span></h2>
